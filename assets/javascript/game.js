@@ -43,7 +43,7 @@ function gameStart(){
     console.log(gem2);
     console.log(gem3);
     console.log(gem4);
-    console.log;
+    
 
     $("#score").html("<h1>Current Score:</h1>"+ userScore);
     
