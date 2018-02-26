@@ -1,0 +1,18 @@
+#section {
+    color:green;
+    padding:20px;
+    background-color:#CBDF49;
+    width:40rem;
+}
+#number {
+    padding:20px;
+    background-color:#81E76A;
+    width:20rem;
+
+}
+#winloss {
+    padding:20px;
+    background-color:#38F0F3;
+    width:20rem;
+
+}
