@@ -43,6 +43,7 @@ function gameStart(){
     console.log(gem2);
     console.log(gem3);
     console.log(gem4);
+    console.log;
 
     $("#score").html("<h1>Current Score:</h1>"+ userScore);
     
@@ -69,8 +70,7 @@ $("#ruby").click(function() {
 //DIAMOND
 $("#diamond").on("click", function(){
     $("#diamond").attr("value", gem2);
-    $("#diamond").val($("#diamond").val() + ' '+ $(this).html());
-    return false;
+   
     
 });
 
