@@ -18,13 +18,14 @@ $(document).ready(function () {
     var playerNum = 0;
 
 
-    var startScore = Math.floor((Math.random() * 100) + 19);
+    var startScore;
 
     //Make a function to begin the game and set all the values
     function gameStart() {
-
+        startScore = Math.floor((Math.random() * 100) + 19);
 
         console.log(startScore);
+        
         $("#number").text(startScore);
 
         //randomize each number for each jewel so they aren't all the same
@@ -44,10 +45,11 @@ $(document).ready(function () {
     }
 
     function reset(){
+        startScore = Math.floor((Math.random() * 100) + 19);
         $("#number").text(startScore);
-        
-
-    }
+        playerNum = 0;
+        $('#score').html("<h1>Score: </h1>" + playerNum);
+        }
    
 
 
